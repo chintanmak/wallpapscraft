@@ -1,0 +1,23 @@
+@media screen and (min-width: 769px) {
+    .App{
+       display: flex;
+       flex-direction: row;
+        width: 100%;
+
+        & .navbar{
+            width: 20%;
+            // border: 1px solid;
+       }
+       & .main-sections{
+           width: 50%;
+        //    border: 1px solid;
+
+       }
+       & .sidebar{
+           width: 30%;
+        //    border: 1px solid;
+
+        }
+
+    }
+}
