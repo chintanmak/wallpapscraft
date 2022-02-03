@@ -5,6 +5,7 @@
 @media screen and (min-width: 769px) {
     .navbar-container{
         // width: 40%;
+        
         & .navbar-section{
             display: flex;
             flex-direction: column;
@@ -12,24 +13,55 @@
             // border: 1px solid;
 
             & h1{
-                font-size: 2rem;
+                padding-left: 1rem;
+                font-size: 2.2rem;
                 font-weight: 700;
             }
             & .navbar-menu{
                 display: flex;
                 flex-direction: column;
                 gap: 3rem 0;
+                // align-items: center;
+
 
                 & a{
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                     font-weight: bold;
+                    padding-left: 1.7rem;
+                    // align-items: center;
+                    // border: 1px solid;
+
+                    & img{
+                        padding-right: 1rem ;
+                        width: 1.7rem;
+                        height: 1.7rem;
+                    }
                 }
 
                 & .active{
                     padding: 1rem;
                     background-color: purple;
-                    border: 1px solid;
                     color: white;
+                    align-items: center;
+                    
+                }
+            }
+
+            & .logout-btn{
+                margin-top: 25rem;
+
+                & a{
+                    font-size: 1.8rem;
+                    font-weight: bold;
+                    padding-left: 3rem;
+                    // align-items: center;
+                    // border: 1px solid;
+
+                    & img{
+                        padding-right: 1rem ;
+                        width: 1.7rem;
+                        height: 1.7rem;
+                    }
                 }
             }
         }
@@ -37,24 +69,30 @@
 
     .home-container{
         margin-top: 1rem;
-        background-color: lightgray;
+        background-color: rgba(211, 211, 211, 0.719);
         border-radius: 4rem;
         & .home-header{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-right: 1rem;
+            // padding: 1rem;
             // justify-content: center;
             align-items: center;
             // border: 1px solid;
 
             & .home-names{
-                padding: 1rem;
+                padding: 1.5rem 3rem;
             }
             & .search-bar{
-                background-color: white;
+                display: flex;
                 font-size: 1rem;
-                border: 2px solid black;
+                padding: 1rem;
+
+            }
+            & img{
+                margin-left: -8rem;
+                width: 3rem;
+                height: 3rem;
             }
     }
 
@@ -62,10 +100,9 @@
             display: grid;
             grid-template-columns: auto auto auto;
             justify-content: center;
-            gap: 1.5rem;
+            gap: 2rem;
             padding: 1rem;
             & img{
-                border: 1px solid black;
                 width: 13rem;
                 height: 20rem;
             }
@@ -73,7 +110,8 @@
 
 
         & .below-full-section{
-
+            padding: 0 1rem;
+            padding-bottom: 1rem;
             display: flex;
             flex-direction: row;
             & .wall-section2{
@@ -118,6 +156,13 @@
                             border: 0.2rem solid;
                             border-radius: 10px;
                             padding: 1rem;
+                            font-size: 1.2rem;
+                            display: flex;
+                            // align-items: center;
+                            & img{ 
+                                width: 1.7rem;
+                                height: 1.7rem;
+                            }
                         }
                     }
                 }
@@ -129,7 +174,7 @@
                 margin: 1rem;
                 padding: 1rem;
                 width: 30%;
-                background-color: rgba(238, 232, 232, 0.932);
+                background-color: rgba(194, 191, 191, 0.644);
                 border-radius: 2rem;
     
                 & .imgsec3{

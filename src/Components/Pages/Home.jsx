@@ -3,6 +3,8 @@ import '../Scss/style.scss';
 import wall1 from '../Assets/fsociety.jfif';
 import wall2 from '../Assets/mrrobot.jfif';
 import wall3 from '../Assets/disobey.jpg';
+import filter from '../Assets/filter.png';
+import bell from '../Assets/bell.png';
 
 function Home() {
     return(
@@ -15,8 +17,8 @@ function Home() {
                     </div>
                     <div className="search-bar">
                         <input type='text' placeholder="Search" />
-
                     </div>
+                        <img src={bell} />
                 </div>
                 <div className="imgs-section">
                     <div className="img1">
@@ -47,7 +49,8 @@ function Home() {
                         </div>   
                         <div className="list-prize">
                             <h3>
-                                Fliter
+                            <img src={filter} />
+                                Filter
                                 </h3>   
                         </div>
                     </div>
